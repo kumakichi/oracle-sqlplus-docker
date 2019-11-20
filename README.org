@@ -1,0 +1,4 @@
+* About
+  run oracle *sqlplus* tool in alpine linux container
+
+  zip files downloaded from [[https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html][Oracle Instant Client Downloads for Linux x86-64 (64-bit)]]

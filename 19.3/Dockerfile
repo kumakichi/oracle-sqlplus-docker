@@ -1,6 +1,5 @@
 FROM frolvlad/alpine-glibc
 
-RUN sed -i 's@dl-cdn.*alpinelinux.org@mirrors.ustc.edu.cn@g' /etc/apk/repositories
 RUN apk update && apk add libaio
 
 COPY instantclient-sqlplus-linux.x64-19.3.0.0.0dbru.zip /usr/local/1.zip
